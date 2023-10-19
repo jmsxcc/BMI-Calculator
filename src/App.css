@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: var(--color-container);
+}
+
+h1 {
+  color: var(--color-titles);
+  font-size: 52px;
+  margin: 1rem;
+}
+
+.con-result {
+  margin: 0.5rem;
+  padding: 2rem;
+  background-color: var(--color-result);
+  border-radius: 1rem;
+}
+
+.bmi {
+  font-size: var(--font-titles);
+  color: var(--color-bmi);
+}
+
+p,
+label {
+  font-size: var(--font-titles);
+  padding: 0.5rem 0;
+}
+
+input {
+  margin: 0.5rem;
+  font-size: 16px;
+  border: 2px solid var(--background);
+  border-radius: 1rem;
+  text-align: center;
+  padding: 0.75rem;
+}
+
+button {
+  border-radius: 1rem;
+  border: 1px solid transparent;
+  padding: 1rem;
+  margin: 0.5rem;
+  font-size: var(--font-titles);
+  color: #f1faee;
+  background-color: #023e8a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.gray {
+  color: gray;
+}
+
+.green {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.orange {
+  color: orange;
+}
+
+.red {
+  color: red;
+}
+
+.gray,
+.green,
+.yellow,
+.orange,
+.red {
+  font-size: 32px;
+}

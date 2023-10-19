@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@100&family=Libre+Baskerville&family=Poppins:wght@800&family=Rubik:wght@700&display=swap");
+
+:root {
+  font-family: "Rubik", sans-serif;
+  --font-titles: 20px;
+  --color-titles: #023e8a;
+  --color-bmi: #ffffff;
+  --color-result: #001219;
+  --color-container: #ffffff;
+  --background: #001219;
+}
